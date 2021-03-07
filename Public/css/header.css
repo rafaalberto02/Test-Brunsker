@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon i{
+    font-size: 30px;
+}
+
+header ul li{
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding: 6px;
+    margin-right: 5px;
+    background-color: red;
+    text-align: center;
+}
+
+header ul a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 40px;
+}
+
+.success{
+    background: lightgreen;
+    color: green;
+    border: 2px solid green;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.failure{    
+    background: rgb(255, 136, 136);
+    color: red;
+    border: 2px solid red;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    flex-basis: 100%;
+}
